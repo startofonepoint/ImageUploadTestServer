@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<form name="user" accept-charset="utf-8" method="post" action="/users">
+    <b>Find User</b><p>
+    id <input type="text" name="userid"/>
+    <br>
+    name <input type="text" name="username"/>
+    <br>
+    email <input type="text" name="email"/>
+    <br>
+    <button type="submit" >Submit</button>
+</form>
+<form id = "uploadForm" enctype = "multipart/form-data" action =  "/upload" method = "post">
+<input type="file" name="userPhoto" />
+<input type="submit" value="Upload Image" name="submit">
+</form>
+</body>
+</html>
